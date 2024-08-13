@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    direction: rtl; /* Right-to-left text direction */
+    background-image: url('home-img.jpeg'); /* Add your background image here */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: #a79974; /* Background color for header */
+    color: #fff; /* Text color */
+    padding: 20px; /* Space around text */
+    text-align: center; /* Center the text */
+}
+
+.shop-name {
+    font-size: 36px; /* Font size */
+    margin: 0; /* Remove default margin */
+}
+
+.container {
+    text-align: center;
+    margin-top: 75px;
+}
+
+.container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #f7d74a;
+}
+
+#checkout_button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#checkout_button:hover {
+    background-color: #0056b3;
+}
+
+img.total-image {
+    width: 100px;  /* Adjust the width as needed */
+    height: auto;  /* Maintain aspect ratio */
+    vertical-align: middle; /* Aligns the image with the text */
+}
